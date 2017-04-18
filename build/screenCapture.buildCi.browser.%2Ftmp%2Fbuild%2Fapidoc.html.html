@@ -54,12 +54,47 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.deep-freeze">module deep-freeze</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.deep-freeze.deep-freeze">
+            function <span class="apidocSignatureSpan"></span>deep-freeze
+            <span class="apidocSignatureSpan">(o)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.deep-freeze" id="apidoc.module.deep-freeze">module deep-freeze</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.deep-freeze.deep-freeze" id="apidoc.element.deep-freeze.deep-freeze">
+        function <span class="apidocSignatureSpan"></span>deep-freeze
+        <span class="apidocSignatureSpan">(o)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function deepFreeze(o) {
+  Object.freeze(o);
+
+  Object.getOwnPropertyNames(o).forEach(function (prop) {
+    if (o.hasOwnProperty(prop)
+    &amp;&amp; o[prop] !== null
+    &amp;&amp; (typeof o[prop] === "object" || typeof o[prop] === "function")
+    &amp;&amp; !Object.isFrozen(o[prop])) {
+      deepFreeze(o[prop]);
+    }
+  });
+
+  return o;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
