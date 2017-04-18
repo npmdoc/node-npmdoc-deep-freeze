@@ -1,9 +1,14 @@
-# api documentation for  [deep-freeze (v0.0.1)](https://github.com/substack/deep-freeze)  [![npm package](https://img.shields.io/npm/v/npmdoc-deep-freeze.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-deep-freeze) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-deep-freeze.svg)](https://travis-ci.org/npmdoc/node-npmdoc-deep-freeze)
+# npmdoc-deep-freeze
+
+#### api documentation for  [deep-freeze (v0.0.1)](https://github.com/substack/deep-freeze)  [![npm package](https://img.shields.io/npm/v/npmdoc-deep-freeze.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-deep-freeze) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-deep-freeze.svg)](https://travis-ci.org/npmdoc/node-npmdoc-deep-freeze)
+
 #### recursively Object.freeze() objects and functions
 
-[![NPM](https://nodei.co/npm/deep-freeze.png?downloads=true)](https://www.npmjs.com/package/deep-freeze)
+[![NPM](https://nodei.co/npm/deep-freeze.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/deep-freeze)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-deep-freeze/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-deep-freeze_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-deep-freeze/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-deep-freeze/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-deep-freeze/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-deep-freeze/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-deep-freeze/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-deep-freeze/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "James Halliday",
-        "email": "mail@substack.net",
         "url": "http://substack.net"
     },
     "bugs": {
@@ -48,13 +52,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "substack",
-            "email": "mail@substack.net"
+            "name": "substack"
         }
     ],
     "name": "deep-freeze",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/substack/deep-freeze.git"
@@ -65,16 +67,6 @@
     "version": "0.0.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module deep-freeze](#apidoc.module.deep-freeze)
-
-
-
-# <a name="apidoc.module.deep-freeze"></a>[module deep-freeze](#apidoc.module.deep-freeze)
 
 
 
