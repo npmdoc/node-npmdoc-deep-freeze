@@ -1,6 +1,6 @@
 # npmdoc-deep-freeze
 
-#### api documentation for  [deep-freeze (v0.0.1)](https://github.com/substack/deep-freeze)  [![npm package](https://img.shields.io/npm/v/npmdoc-deep-freeze.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-deep-freeze) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-deep-freeze.svg)](https://travis-ci.org/npmdoc/node-npmdoc-deep-freeze)
+#### basic api documentation for  [deep-freeze (v0.0.1)](https://github.com/substack/deep-freeze)  [![npm package](https://img.shields.io/npm/v/npmdoc-deep-freeze.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-deep-freeze) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-deep-freeze.svg)](https://travis-ci.org/npmdoc/node-npmdoc-deep-freeze)
 
 #### recursively Object.freeze() objects and functions
 
@@ -64,7 +64,8 @@
     "scripts": {
         "test": "tap test/*.js"
     },
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "bin": {}
 }
 ```
 
